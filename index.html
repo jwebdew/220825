@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지확대</title>
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href="css/이미지확대스크롤효과.css" rel="stylesheet" />
+   
+     
+    <!-- jquery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- aos js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- fancybox js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(function(){
+            AOS.init();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#">hasujeong</a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+                <li><a href="#">menu4</a></li>
+                <li><a href="#">menu5</a></li>
+            </ul>
+        </nav>
+        <i class="all_menu xi-bars"><span>메뉴보기</span></i>
+    </header>
+    <section class="main_visual">
+        <img src="img/main_bg.jpg" alt="공원이미지" />
+    </section><!-- .main_visual end -->
+
+    <section class="cont01">
+        <div class="img_list" data-aos="zoom-in-right">
+            <a href="img/book_02.jpg" data-fancybox="images">
+                <img src="img/visual.jpg" alt="커피이미지" />
+            </a>
+            <a href="img/book_02.jpg" data-fancybox="images">
+                <img src="img/visual2.jpg" alt="커피이미지" />
+            </a>
+            <a href="img/book_02.jpg" data-fancybox="images">
+                <img src="img/book_02.jpg" alt="커피이미지" />
+            </a>
+            <a href="img/book_02.jpg" data-fancybox="images">
+                <img src="img/visual.jpg" alt="커피이미지" />
+            </a>
+        </div><!-- .img_list end -->
+        <div class="info">
+            <strong>#리뉴얼</strong>
+            <h4>웹사이트 제목 작성</h4>
+            <p>기획, 설계, 디자인, 퍼블리싱</p>
+            <p>제작목적, 콘셉트 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, accusantium neque non id nisi cupiditate rerum autem quas aut, facere eligendi? Voluptates autem voluptatibus a. Illo expedita et laudantium tempore?</p>
+            <ul class="btn">
+                <li><a href="#">웹사이트보기</a></li>
+                <li><a href="#">기획서보기</a></li>
+            </ul><!-- .btn end -->
+        </div><!-- .info end -->
+    </section><!-- .cont01 end -->
+
+    <section class="cont02">
+        <h3>2d 그래픽 디자인</h3>
+         
+        <div class="list">
+            <a href="#" data-aos="zoom-in">
+                <div>
+                    <img src="img/visual.jpg" alt="커피이미지" />
+                </div>
+                <p>디자인 제목</p>
+            </a>
+            <a href="#" data-aos="zoom-in">
+                <div>
+                    <img src="img/visual2.jpg" alt="커피이미지" />
+                </div>
+                <p>디자인 제목</p>
+            </a>
+            <a href="#" data-aos="zoom-in">
+                <div>
+                    <img src="img/visual.jpg" alt="커피이미지" />
+                </div>
+                <p>디자인 제목</p>
+            </a>
+            <a href="#" data-aos="zoom-in">
+                <div>
+                    <img src="img/visual2.jpg" alt="커피이미지" />
+                </div>
+                <p>디자인 제목</p>
+            </a>
+        </div><!-- .list end -->
+    </section><!-- .cont02 end -->
+    <footer>
+        <p>copyright 2022. hasujeong all rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
